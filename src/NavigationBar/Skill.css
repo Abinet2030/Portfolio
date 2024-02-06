@@ -1,0 +1,185 @@
+                        .MainSkil {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        
+                        .mainskill {
+                            color: brown;
+                            padding-top: 100px;
+                            height: 200px;
+                            align-items: center;
+                            text-align: center;
+                            padding-top: 150px;
+                        }
+                        
+                        .Frontskill {
+                            display: flex;
+                            grid-template-columns: repeat(2, 1rf);
+                            grid-gap: 20px;
+                            height: 100%;
+                            margin-bottom: 0%;
+                            margin-top: 20px;
+                            margin-right: 20px;
+                            align-items: center;
+                        }
+                        
+                        .Webprograming {
+                            display: inline-block;
+                            padding-top: 10px;
+                            text-align: center;
+                            height: 100%;
+                            width: 50%;
+                            flex-direction: row;
+                            display: flex;
+                            grid-template-columns: repeat(2, 1rf);
+                            grid-gap: 30px;
+                            box-shadow: 5px 5px silver(89, 234, 171, 0.51);
+                            margin-left: 20px;
+                            padding-bottom: 10px;
+                        }
+                        
+                        .otherskl {
+                            height: 100%;
+                            width: 50%;
+                            align-items: center;
+                            text-align: center;
+                            padding-top: 0px;
+                        }
+                        
+                        .leftt {
+                            margin-top: 50px;
+                            padding-top: 50px;
+                            width: 200px;
+                            height: auto;
+                        }
+                        
+                        .leftt p {
+                            color: black;
+                        }
+                        
+                        .rigtt {
+                            margin-top: 50px;
+                            padding-top: 50px;
+                            width: 200px;
+                            height: auto;
+                        }
+                        
+                        .rigtt p {
+                            color: black;
+                        }
+                        
+                        .otherskl p {
+                            color: black;
+                        }
+                        
+                        @media (max-width: 640px) {
+                            .Frontskill {
+                                flex-direction: column;
+                                justify-content: center;
+                                margin-left: 100px;
+                            }
+                            .leftt,
+                            .rigtt {
+                                width: 100%;
+                                margin-left: 0px;
+                                padding-right: 0px;
+                            }
+                            .Webprograming {
+                                align-items: center;
+                                flex-direction: column;
+                                justify-content: center;
+                                margin-left: 10px;
+                            }
+                            .mainskill {
+                                background-color: #ffef42;
+                                padding-left: 100px;
+                                padding-bottom: 50px;
+                                text-align: center;
+                                height: 300px;
+                            }
+                        }
+                        
+                        .container {
+                            width: 90%;
+                            margin: 20px auto;
+                        }
+                        
+                        .skill {
+                            margin: 10px 0;
+                            background-color: #111010;
+                            border-radius: 5px;
+                            overflow: hidden;
+                        }
+                        
+                        .skill-name {
+                            padding: 10px;
+                            font-weight: bold;
+                            color: #333;
+                        }
+                        
+                        .skill-level {}
+                        
+                        @keyframes grow {
+                            from {
+                                width: 0%;
+                            }
+                            to {
+                                width: 100%;
+                            }
+                        }
+                        
+                        .skill-level-Html {
+                            width: 90%;
+                            height: 20px;
+                            background-color: #ffef42;
+                            border-radius: 5px;
+                            animation: grow 2s ease-in-out;
+                        }
+                        
+                        .skill-level-css {
+                            width: 94%;
+                            height: 20px;
+                            background-color: #ffef42;
+                            border-radius: 5px;
+                            animation: grow 2s ease-in-out;
+                        }
+                        
+                        .skill-level-js {
+                            width: 85%;
+                            height: 20px;
+                            background-color: #ffef42;
+                            border-radius: 5px;
+                            animation: grow 2s ease-in-out;
+                        }
+                        
+                        .skill-level-re {
+                            width: 70%;
+                            height: 20px;
+                            background-color: #ffef42;
+                            border-radius: 5px;
+                            animation: grow 2s ease-in-out;
+                        }
+                        
+                        .skill-level-Il {
+                            width: 80%;
+                            height: 20px;
+                            background-color: #ffef42;
+                            border-radius: 5px;
+                            animation: grow 2s ease-in-out;
+                        }
+                        
+                        .skill-level-Ph {
+                            width: 75%;
+                            height: 20px;
+                            background-color: #ffef42;
+                            border-radius: 5px;
+                            animation: grow 2s ease-in-out;
+                        }
+                        
+                        .skill-level-Gr {
+                            width: 70%;
+                            height: 20px;
+                            background-color: #ffef42;
+                            border-radius: 5px;
+                            animation: grow 2s ease-in-out;
+                        }

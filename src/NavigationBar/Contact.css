@@ -1,0 +1,62 @@
+        .formhandl {
+            background-color: white;
+            width: 500px;
+            height: 400;
+            display: flex;
+            flex-direction: column;
+            margin-left: 400px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            border-radius: 25px;
+            border: 1px solid white;
+            box-shadow: 5px 5px rgb(160, 156, 156);
+        }
+        
+        .formhandl h3 {
+            align-items: center;
+            text-align: center;
+            padding-top: 50px;
+        }
+        
+        .formhandl form {
+            flex-direction: column;
+            display: grid;
+            padding: 20%;
+        }
+        
+        input {
+            background-color: silver;
+            color: black;
+        }
+        
+        form {
+            gap: 10px;
+        }
+        
+        .Submit {
+            width: 170px;
+            height: 30px;
+            border-radius: 20px;
+            background-color: gold;
+            align-items: center;
+            margin-left: 50px;
+        }
+        
+        .Submit:hover {
+            background-color: goldenrod;
+            cursor: pointer;
+            transition-duration: 0.5;
+            transform: scale(1.2);
+        }
+        
+        label {
+            display: inline;
+        }
+        
+        @media (max-width: 640px) {
+            .formhandl {
+                margin-left: 40px;
+                width: 400px;
+                height: 350;
+            }
+        }

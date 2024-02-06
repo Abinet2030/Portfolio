@@ -1,0 +1,71 @@
+.mask {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.mask .bgimg {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.mask::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.bg-img {
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.bgimg.content h1 {
+    font-size: 4rem;
+    padding: 15px;
+}
+
+.bgimg.content p {
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.btpading {
+    padding-top: 30px;
+    gap: 1rem;
+}
+
+.content .buton {
+    margin: 5px 10px;
+}
+
+@media screen and(max-wedth='640px') {
+    .bgimg.content h1 {
+        font-size: 3rem;
+    }
+    .bgimg.content p {
+        font-size: 1.4rem;
+    }
+    .bg-img {
+        max-width: 100%;
+        height: auto;
+    }
+}
