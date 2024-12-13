@@ -86,3 +86,18 @@
             flex-direction: column;
         }
     }
+
+
+         @media (max-width:640px) {
+             .foter-contener {
+                 justify-content: center;
+                 flex-direction: column;
+                 width: 100%;
+             }
+    
+             .foter-contener .left {
+                 width: 100%;
+                 display: flex;
+                 flex-direction: column;
+             }
+         }

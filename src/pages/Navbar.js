@@ -18,7 +18,7 @@ const changeColor=()=> {
 window.addEventListener("scroll", changeColor);
     return ( 
     <div div className = {color ?'header hea der-bg':"header"} >
-<Link to='/'>Abinet</Link>
+<Link to='/'>Portfolio</Link>
 <ul className={click ?"nav_ul active":'nav_ul'}>
 <li>
     <Link to ="/">Home</Link>

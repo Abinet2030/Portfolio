@@ -1,9 +1,6 @@
 import React from 'react'
-import Navbar from '../NavigationBar/Navbar'
-import Aboutfil from '../NavigationBar/Aboutfil'
-import Foter from '../NavigationBar/Foter'
-// import Bg2 from '../NavigationBar/Bg2'
-
+import Navbar from'../pages/Navbar'
+import Aboutfil from '../pages/Aboutfil'
 
 const About = () => {
   return (

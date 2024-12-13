@@ -1,0 +1,121 @@
+                    .topp {
+                        background-color: #fbf9f9;
+                        color: brown;
+                        padding-top: 100px;
+                    }
+                
+                    .marqu {
+                        height: 100px;
+                        width: auto;
+                        background-color: #fff;
+                        text-align: center;
+                        padding-top: 45px;
+                    }
+                    
+                   
+                    
+                    .Abouimg {
+                        height: 350px;
+                        width: 350px;
+                        background-color: black;
+                       
+                        border-radius: 30px;
+                        
+                        margin-left: 100px;
+                        margin-top: 10px;
+                    }
+                    
+                    .AbotText {
+                        background-color: rgb(32, 19, 147);
+                        width: 40%;
+                        height: 400px;
+                        color: black;
+                        text-align: center;
+                        padding-top: 120px;
+                       
+                        margin-top: 10px;
+                        
+                    }
+                    
+                    .profile {
+                        height: 100%;
+                        align-items: center;
+                        width: 100%;
+                        border-radius: 30px;
+                       
+                    }
+                    
+                                        .AbouimgText {
+                                            width: 80%;
+                                            overflow: hidden;
+                                            display: flex;
+                                            gap: 100px;
+                                            height: 100%;
+                                            margin-bottom: 0%;
+                                            margin-left: 160px;
+                                            background-color: rgb(220, 49, 49)
+                                        }
+
+                                        .AbouimgText {
+                                           margin-top: 40px;
+                                            width: 80%;
+                                            overflow: hidden;
+                                            display: flex;
+                                            gap: 20px;
+                                            height: auto;
+                                            margin-bottom: 0%;
+                                            margin-left: 160px;
+                                            background-color: rgb(250, 246, 246);
+                                            flex-wrap: wrap;
+                                        }
+                    
+                                        .AbotText {
+                                            background-color: white;
+                                            width: 40%;
+                                            height: 400px;
+                                            color: black;
+                                            text-align: center;
+                                            padding-top: 120px;
+                                            margin-top: 10px;
+                                        }
+                    
+                                        .Abouimg {
+                                            height: 350px;
+                                            width: 350px;
+                                            background-color: rgb(250, 247, 247);
+                                            border-radius: 30px;
+                                            margin-left: 100px;
+                                            margin-top: 10px;
+                                        }
+                    
+                                        @media (max-width: 1200px) {
+                                            .AbouimgText {
+                                                flex-direction: column;
+                                                align-items: center;
+                                                margin-left: 30px;
+                                            }
+                    
+                                            .Abouimg,
+                                            .AbotText {
+                                                width: 90%;
+                                                height: auto;
+                                                margin: 10px 0;
+                                            }
+                                        }
+
+
+
+                                                                                 @media (max-width: 768px) {
+                                                                                     .AbouimgText {
+                                                                                         flex-direction: column;
+                                                                                         align-items: center;
+                                                                                         margin-left: 30px;
+                                                                                     }
+                                        
+                                                                                     .Abouimg,
+                                                                                     .AbotText {
+                                                                                         width: 90%;
+                                                                                         height: auto;
+                                                                                         margin: 10px 0;
+                                                                                     }
+                                                                                 }

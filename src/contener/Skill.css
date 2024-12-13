@@ -1,26 +1,41 @@
                         .MainSkil {
                             width: 100%;
                             height: 100%;
+                            background-color: rgb(248, 245, 245);
+                            margin-bottom: 150px;
+                            overflow-y: auto;
+                            
                         }
-                        
-                        .mainskill {
+                        .manskinbox{
+                        background-color:white;
+                        display: flex;
+                        margin-top: 200px;
+                        padding-left: 90px;
+                        }
+                       
+                        .ainskill {
                             color: brown;
                             padding-top: 100px;
                             height: 200px;
                             align-items: center;
                             text-align: center;
-                            padding-top: 150px;
+                            
+                            background-color: #ffef42;
+                            width: 100%;
+                            overflow: hidden;
                         }
                         
                         .Frontskill {
                             display: flex;
-                            grid-template-columns: repeat(2, 1rf);
+                           
                             grid-gap: 20px;
                             height: 100%;
                             margin-bottom: 0%;
                             margin-top: 20px;
                             margin-right: 20px;
                             align-items: center;
+                            background-color: white;
+                            width: 40%;
                         }
                         
                         .Webprograming {
@@ -36,6 +51,9 @@
                             box-shadow: 5px 5px silver(89, 234, 171, 0.51);
                             margin-left: 20px;
                             padding-bottom: 10px;
+                            background-color:white ;
+                            width: 40%;
+                            margin-top: 18px;
                         }
                         
                         .otherskl {
@@ -72,32 +90,7 @@
                             color: black;
                         }
                         
-                        @media (max-width: 640px) {
-                            .Frontskill {
-                                flex-direction: column;
-                                justify-content: center;
-                                margin-left: 100px;
-                            }
-                            .leftt,
-                            .rigtt {
-                                width: 100%;
-                                margin-left: 0px;
-                                padding-right: 0px;
-                            }
-                            .Webprograming {
-                                align-items: center;
-                                flex-direction: column;
-                                justify-content: center;
-                                margin-left: 10px;
-                            }
-                            .mainskill {
-                                background-color: #ffef42;
-                                padding-left: 100px;
-                                padding-bottom: 50px;
-                                text-align: center;
-                                height: 300px;
-                            }
-                        }
+                        
                         
                         .container {
                             width: 90%;

@@ -1,22 +1,20 @@
 import React from 'react'
-import Navbar from '../NavigationBar/Navbar'
-import Bgimag from '../NavigationBar/Bgimag'
-import Foter from '../NavigationBar/Foter'
+import Navbar from '../pages/Navbar'
+import Bgimag from '../pages/Bgimag'
+import Foter from '../pages/Foter'
 
-import Aboutfil from '../NavigationBar/Aboutfil'
+import Aboutfil from '../pages/Aboutfil'
 
-import SkillFil from '../NavigationBar/SkillFil'
-import ContactFill from '../NavigationBar/ContactFill'
+import SkillFil from './SkillFil'
+
 const Home = () => {
   return (
     <div>
      <Navbar/>
      <Bgimag/>
-     {/* <About/> */}
      <Aboutfil/>
-     {/* <Skill/> */}
      <SkillFil/>
-   <ContactFill/>
+   
     <Foter/>
     </div>
   )
